@@ -1,0 +1,35 @@
+
+.Web-Size { width:100%;}
+.Page-Size { width:980px; margin:0 auto;}
+
+.Highlight { color:#c54033; font-weight:normal; font-size:18px; border:1px solid #31bc79; padding:4px 8px 6px 8px; border-radius:5px;}
+
+.Clear { clear:both;}
+
+.pull-left { float:left; }
+
+.clearfix{display:block}
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;visibility:hidden}
+
+.Left { width:41%; padding:1%; float:left; background:#fff; box-shadow:-4px 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #830051; border-radius: 3px;}
+.Right { width:58%; padding:1%; float:right; background:#fff; box-shadow:-4px 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #830051; border-radius: 3px;}
+
+.Table { }
+.Table table { border-collapse:collapse; margin:0 0 5px 0; width:100%;}
+.Table table:hover tr { background:#ffeca1;}
+.Table tr { border:1px solid #ccc; background:#fff;}
+.Table tr.sec { background:#f5f5f5;}
+.Table tr.title { background:#830051; color:#fff; font-weight:bold; font-size:14px;}
+.Table th { background:#830051; padding:2px 4px; color:#fff; font-weight:bold; font-size:14px; text-align:left;border:1px solid #eee;}
+.Table td { padding:2px 4px; font-size:14px; vertical-align:top; border:1px solid #eee;}
+.Table td img { border:1px solid #ccc; margin:0 0 5px 0;}
+.Table input[type='text'] { width:100%; border:1px solid #ccc;}
+.Table textarea { width:100%; border:1px solid #ccc;}
+.Table td h3 { color:#e36900; padding-bottom:5px;}
+.Table td p { }
+.Table td.sec { background:#ddd; color:#333333}
+.Table td sup { font-size:8px;}
+.Table h2{ margin:20px 0 10px 0;}
+.Table ul{ list-style:none;}
+.Table li{ }
+.Table li a{ font-weight:bold; margin:0 20px 0 30px; background:#00a1cb; color:#FFFFFF; padding:10px 10px; border-radius:10px;}

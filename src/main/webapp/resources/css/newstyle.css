@@ -1,0 +1,244 @@
+@CHARSET "ISO-8859-1";
+
+/* Created by Sunil */
+
+/* Mega menu */
+.menu-large {
+  position: static !important;
+}
+.megamenu{
+  padding:2px 0 20px 0px;
+  width:60%;
+  background: #C8CFDD;
+}
+.megamenu> li > ul {
+  padding: 0;
+  margin: 0;
+}
+.megamenu> li > ul > li {
+  list-style: none;
+}
+.megamenu> li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: normal;
+}
+.megamenu> li ul > li > a:hover,
+.megamenu> li ul > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #b4bac6;
+}
+.megamenu.disabled > a,
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+  color: #999999;
+}
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.megamenu.dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+}
+.evaluationtable .form-control{width:100%;}
+.evaluationtable input[type="file"]{width:95px;}
+.evaluationtable .text-center{text-align: center; }
+@media (max-width: 768px) {
+  .megamenu{
+    margin-left: 0 ;
+    margin-right: 0 ;
+  }
+  .megamenu> li {
+    margin-bottom: 30px;
+  }
+  .megamenu> li:last-child {
+    margin-bottom: 0;
+  }
+  .megamenu.dropdown-header {
+    padding: 3px 15px !important;
+
+  }
+}
+
+
+.navbar-custom-menu > .navbar-nav > li > a { padding-top: 5px !important; padding-bottom: 5px !important; }
+.navbar-custom-menu > .navbar { min-height: 32px !important; }
+.navbar-custom-menu > .navbar-brand { padding-top: 5px; padding-bottom: 10px; padding-left: 10px; } 
+.navbar-static-top {min-height: 32px !important;}
+
+.navbar-nav > li > a { padding-top: 5px !important; padding-bottom: 5px !important; }
+.navbar { min-height: 32px !important; }
+/* .navbar-brand { padding-top: 5px; padding-bottom: 10px; padding-left: 10px; }  */
+.file-footer-caption{width:90px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+thead{background: #00c0ef;}
+.panel-collapse .table-bordered{box-shadow: 0 0 4px #f9f3e8;}
+
+.aheader{background:#830051; color:#fff;}
+.aheader a{color:#fff!important;}
+.collapse.in {background: #f2f2f2;}
+
+td{word-break: break-word;}
+
+.el_table tr:last-child, .fl_table tr:last-child {font-weight: bold;}
+
+
+
+
+
+
+
+nav.logo-header, a.logo-header, div.logo-header {
+	/* background: #e1e4ea !important; */
+	/* background: #26b397 !important; */
+    padding: 5px;
+    color: #078000 !important;
+    text-align: center;
+    font-size: 30px !important;
+}
+
+div.logoText > a{
+    color: #004080!important;
+    text-align: center;
+    font-size: 30px !important;
+}
+
+li.dropdown-header{
+	font-size: 15px;
+	color: #337ab7 !important;
+	font-weight: bold;
+}
+
+
+li.activebg{
+	background: #e6988e;
+	color: #fff;
+	border: 1px solid #6a0042;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+li.inactive{
+	color: #830051;
+	border: 1px solid #6a0042;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ul.dropdown-menu {
+	border: 1px solid #6a0042 !important;
+}
+
+
+section.ensyshome{
+	background: url("../images/ensys_bkg.png") !important;
+}
+.labelpad{padding-top: 7px;}
+.managementreview div.dataTables_filter{display: none;}
+
+.backwelcome{position:absolute; display:inline-block;color:#830051;}
+
+/***** Theme ****/
+.content-wrapper, .right-side{background-color: #dbece2;}
+.btn-success{
+background-color: #5CB85C;
+    border-color: #6a0042;	
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success.hover {
+	background-color: #5CB85C;
+ /*  background-color: #6a0042; */
+  border-color: #6a0042;
+}
+.btn-success.focus, .btn-success:focus, .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success.focus:active, .btn-success:active:focus, .btn-success:active:hover, .open > .dropdown-toggle.btn-success.focus, .open > .dropdown-toggle.btn-success:focus, .open > .dropdown-toggle.btn-success:hover {
+  /* background-color: #830051; */
+  background-color:#5CB85C;
+  border-color: #6a0042;
+  color: #fff;
+}
+.skin-green-light .main-header .navbar{background-color: #00e2b5;}
+.bg-green{background-color: #830051!important;}
+.badge.bg-green{background-color: #00a65a !important;}
+.box{border-top: 3px solid #b94a3c;}
+.box.box-success {
+  border-top-color: #b94a3c;
+}
+#accordion .box-title a, #empAccordion .box-title a{color:#830051!important;}
+#accordion .aheader .box-title a, #empAccordion .aheader .box-title a{color:#fff!important;}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{background-color: #830051;color:#fff;}
+.select2-container--default .select2-results__option[aria-selected="true"], .select2-container--default .select2-results__option[aria-selected="true"]:hover{color:#fff;}
+.megamenu .activebg{margin-bottom: 10px;}
+.megamenu .activebg h3{margin-top: 0px;}
+.morris-hover-point{color:#fff!important;}
+
+.btn-success.disabled, .btn-success.disabled.active, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled], .btn-success[disabled].active, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success.active, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover{background-color: #5CB85C;
+  border-color: #6a0042;}
+  
+.select2-container--default .select2-selection--multiple .select2-selection__choice{background-color: #830051;border-color: #6a0042;}
+ .register-box{margin: 2.5% auto;}
+ 
+ div.chart >i{
+	font-size: 60px;
+	text-align: center;
+	width: 100%;
+	padding-top: 80px;
+	color: #830051;
+}
+div.chart > p.no-data{
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	color: #830051;
+}
+.select2-container{z-index: 2;}
+
+/* Make table header center */
+table.dataTable thead > tr > th {
+	text-align: center !important;
+}
+
+.text-theme-color {
+	color: #830051;
+}
+.table-scroll
+{
+	overflow-y:auto;
+}
+.dashbroad .col-sm-4{ padding-left:10px;padding-right:10px;}
+.dashbroad .chartbox .box-body{padding-left:0px;padding-right:0px;}
+
+
+ /* CSS used here will be applied after bootstrap.css */
+/*.navbar-fixed-left {
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  Cancel default li float: left
+  width: 139px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+.container {
+  height: 1000px;
+}
+
+.wrapper {
+  margin-left: 140px;
+} */

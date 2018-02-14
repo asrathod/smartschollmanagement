@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+ "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+<tiles-definitions>  
+    <definition name="base.definition"  
+        template="/WEB-INF/tiles/layout.jsp">  
+        <put-attribute name="title" value="home" />  
+        <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />  
+    </definition>  
+  
+    <definition name="smart.school.login.loginpage" template ="/WEB-INF/views/loginPage.jsp">
+    	<put-attribute name="page-title" value="Login Page" />  
+    </definition>
+   
+    <definition name="smart.login.forgotpassword" template ="/WEB-INF/views/forgotPasswordPage.jsp">
+    	<put-attribute name="page-title" value="Forgot Password Page" />  
+    </definition>
+    
+    <definition name="smart.schooll.home" extends="base.definition">
+    	<put-attribute name="title" value="home" />   
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp" />  
+    </definition> 
+    
+    <!-- Student Info -->
+    <definition name="smart.school.studentinfo.create" extends="base.definition">
+    	<put-attribute name="title" value="Student Info" />
+    	<put-attribute name="body" value="/WEB-INF/views/student/createStudentInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.studentinfo.list" extends="base.definition">
+    	<put-attribute name="title" value="Student Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/student/listStudentInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.personalinfo.create" extends="base.definition">
+    	<put-attribute name="title" value="Personal Info" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/createPersonalInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.personalinfo.list" extends="base.definition">
+    	<put-attribute name="title" value="Personal Info lIST" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/listPersonalInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.contact.info.create" extends="base.definition">
+    	<put-attribute name="title" value="contact Info" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/createContactInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.contact.info.list" extends="base.definition">
+    	<put-attribute name="title" value="contact Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/listContactInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.academic.info.create" extends="base.definition">
+    	<put-attribute name="title" value="Academic Info" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/createAcademicInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.academic.info.list" extends="base.definition">
+    	<put-attribute name="title" value="Academic Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/listAcademicInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.previousacademic.info.create" extends="base.definition">
+    	<put-attribute name="title" value="Previous Academic Info" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/createPreviousAcademicInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.previousacademic.info.list" extends="base.definition">
+    	<put-attribute name="title" value="Previous Academic Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/listPrevoiusAcademicInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.parents.info.create" extends="base.definition">
+    	<put-attribute name="title" value="Parents Info" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/createParentsInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.parents.info.list" extends="base.definition">
+    	<put-attribute name="title" value="Parents Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/personal/listParentsInfo.jsp" />
+    </definition>
+    
+    <!-- User Info -->
+    <definition name="smart.school.userinfo.creat" extends="base.definition">
+    	<put-attribute name="title" value="User Info" />
+    	<put-attribute name="body" value="/WEB-INF/views/userinfo/createUserInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.userinfo.list" extends="base.definition">
+    	<put-attribute name="title" value="User Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/userinfo/listUserInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.extra.curricular.info.create" extends="base.definition">
+    	<put-attribute name="title" value="Extra Curricular Info" />
+    	<put-attribute name="body" value="/WEB-INF/views/extraCurricular/createExtraCurricularInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.extra.curricular.list" extends="base.definition">
+    	<put-attribute name="title" value="Extra Curricular Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/extraCurricular/listExtraCurricularInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.achievements.info.create" extends="base.definition">
+    	<put-attribute name="title" value="Achievements Info" />
+    	<put-attribute name="body" value="/WEB-INF/views/extraCurricular/createAchievementInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.achievements.info.list" extends="base.definition">
+    	<put-attribute name="title" value="Achievements Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/extraCurricular/listAchievementInfo.jsp" />
+    </definition>
+       
+    <definition name="smart.school.experience.info.create" extends="base.definition">
+    	<put-attribute name="title" value="Experience Info Create" />
+    	<put-attribute name="body" value="/WEB-INF/views/userinfo/createExperienceInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.experience.info.list" extends="base.definition">
+    	<put-attribute name="title" value="Experience Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/userinfo/listExperienceInfo.jsp" />
+    </definition>
+    
+    <definition name="smart.school.user.address.creat" extends="base.definition">
+    	<put-attribute name="title" value="Experience Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/userinfo/createUserAddress.jsp" />
+    </definition>
+    
+    <definition name="smart.school.user.address.list" extends="base.definition">
+    	<put-attribute name="title" value="Experience Info List" />
+    	<put-attribute name="body" value="/WEB-INF/views/userinfo/listUserAddress.jsp" />
+    </definition>
+    
+</tiles-definitions>  
